@@ -1,0 +1,25 @@
+{
+  "name": "figma-pixel-compare-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for pixel-perfect comparison of Figma node snapshots",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "bun src/server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0",
+    "ws": "^8.18.0",
+    "uuid": "^11.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pngjs": "^6.0.5",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.0",
+    "typescript": "^5.8.0"
+  }
+}
